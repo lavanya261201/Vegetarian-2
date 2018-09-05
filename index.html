@@ -19,24 +19,24 @@
     
     <body>
     
-    <!--Navbar-->
+    <!--Jumbotron-->
+    <header id="showcase">
+        <h1> Vegetarianism</h1>
+        <h3> For a happier planet, body, and an animal</h3>
+    </header>
+        
+    <!--Navbar
     <nav class="navbar navbar-default navbar-fixed-top">
-      <div class="container centernav">
+      <div class="container-fluid">
         <ul class="nav navbar-nav">
-          <li class="navbar-default navbar-nav"><a href="./aboutme/aboutme.html"> About Me </a></li>
-          <li><a href="./health/health.html"> Health </a></li>
-          <li><a href="./environment/environment.html"> Environment </a></li>
-          <li><a href="./animals/animals.html"> Animals </a></li>
-          <li><a href="./endorsements/endorsements.html"> Endorsements </a></li>
-          <li><a href="./jainism/jain.html"> Jainism </a></li>
-          <li><a href="./blog/blog.html"> Blog / Contact Us </a></li>
+          <li><a href="#">DECA</a></li>
+          <li><a href="#">WHS Legacy</a></li>
+          <li><a href="#">Student Resources</a></li>
+          <li><a href="#">Parent Resources</a></li>
+          <li><a href="#">Alumini</a></li>
         </ul>
       </div>
-    </nav> <nav class="navbar navbar-default">
-        <div class="container"> 
-            
-        </div>
-    </nav>
+    </nav>-->
         
         
     <!--Question-->
@@ -69,22 +69,32 @@
 
     <!--Types of Vegetarians-->
     <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-sm-3 col-lg-3">
-              <h4> Ovo-lacto Vegetarian </h4>
-            </div>
+        <div class="col-xs-12 col-sm-3 col-lg-3 type">
+            <h4 class="ovo_lacto"> Ovo-lacto Vegetarian </h4>
+                <div id="ol_caption" class="animated fadeInDown">
+                    <p> consume both eggs and dairy from animals</p>
+                </div>
+        </div>
+        
+        <div class="col-xs-12 col-sm-3 col-lg-3 type">
+            <h4 class="lacto"> Lacto Vegetarian </h4>
+                <div id="l_caption" class="animated fadeInDown">
+                    <p> consumes dairy from animals but not eggs</p>
+                </div>
+        </div>
 
-            <div class="col-xs-12 col-sm-3 col-lg-3">
-              <h4> Lacto Vegetarian </h4>
-            </div>
+        <div class="col-xs-12 col-sm-3 col-lg-3 type">
+            <h4 class="ovo" > Ovo Vegetarian </h4>
+                <div id="o_caption" class="animated fadeInDown">
+                    <p> consumes eggs but not dairy from animals</p>
+                </div>
+        </div>
 
-            <div class="col-xs-12 col-sm-3 col-lg-3">
-              <h4> Ovo Vegetarian </h4>
-            </div>
-
-            <div class="col-xs-12 col-sm-3 col-lg-3">
-              <h4> Vegan </h4>
-            </div>
+        <div class="col-xs-12 col-sm-3 col-lg-3 type">
+            <h4 class="vegan"> Vegan </h4>
+                <div id="v_caption" class="animated fadeInDown">
+                    <p> consumes no eggs and no dairy from animals </p>
+                </div>
         </div>
     </div>
 
@@ -92,11 +102,13 @@
         
         
     <!--Minified jQuery CDN-->
-    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
     <!-- Bootstrap CDN Latest JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
         
     <!--Page Custom JS-->
+    <script source="resources/js/main.js"> </script>
     
     </body>
 </html>
